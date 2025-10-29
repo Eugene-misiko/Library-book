@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Contact(){
     return (
@@ -10,15 +11,18 @@ function Contact(){
         space-y-4 flex grid bg-blue-500 p-3 text-center m-30
         rounded-xl mt-20">
                     <form action="submit" >
-                <input type="text" className=" p-2 m-4 rounded text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="First Name"/><br />
-                <input type="text" className=" p-2 m-4 rounded text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="Lats Name"/><br />
-                <input type="text" className=" p-2 m-4 rounded text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="Phone"/><br />
-                <input type="text" className=" p-2 m-4 rounded text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="Email"/><br />
+                <input type="text" className=" p-2 m-4 rounded text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="First Name"/><br />
+                <input type="text" className=" p-2 m-4 rounded text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="Lats Name"/><br />
+                <input type="text" className=" p-2 m-4 rounded text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="Phone"/><br />
+                <input type="text" className=" p-2 m-4 rounded text-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 w-80" placeholder="Email"/><br />
                 <button className="bg-purple-500 hover:bg-purple-900 text-white font-bold py-2 px-4 rounded">Submit</button>
 
          </form>
         </div>
+        
      </section>
+
+     <Footer />
         </>
     )
 }
