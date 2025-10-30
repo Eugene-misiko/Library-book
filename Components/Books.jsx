@@ -29,6 +29,14 @@ function Books() {
       setLoading(false);
     }
   };
+  useEffect(()=>{
+    fetchBooks(book)
+  }, [])
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    fetchBooks();
+  }
 
 
  
