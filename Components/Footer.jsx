@@ -3,7 +3,7 @@ import React from "react";
 function Footer () {
     return(
         <> 
-        <div className="fixed bottom-0 left-0 w-full bg-gray-900 text-white text-center p-4  ">
+        <div className="bg-gradient-to-r from-indigo-700 to-purple-700 text-white px-6 py-4 shadow-md text-center">
 
         <p>&copy; 2025 My website - All rights reserved.</p>
         </div>

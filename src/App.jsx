@@ -7,6 +7,7 @@ const Books = React.lazy (()=> import ("../Components/Books"))
 
 
 
+
 function App() {
 
 
@@ -19,6 +20,8 @@ function App() {
           <Route path='/about' element={<About/>} />
           <Route path='/books' element={<Books/>} />
           <Route path='/contact' element={<Contact/>} />
+         
+
         </Routes>
         </Suspense>
       </Router>
