@@ -4,6 +4,7 @@ const About = React.lazy (()=> import ("../Components/About"))
 const Home = React.lazy (()=> import ("../Components/Home"))
 const Contact = React.lazy (()=> import ("../Components/Contact"))
 const Books = React.lazy (()=> import ("../Components/Books"))
+const Message = React.lazy (()=> import ("../Components/Message"))
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' element={<About/>} />
           <Route path='/books' element={<Books/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='/message' element={<Message/>} />
          
 
         </Routes>
