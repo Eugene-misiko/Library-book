@@ -12,14 +12,9 @@ function Home() {
   </h1>
 
             <Link to='/books'  className="bg-white text-indigo-700 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-100 transition my-30">Get started</Link>
-         <div class="w-1 h-1 bg-green-500 rounded-full 
-            transition-transform duration-500 hover:scale-20000 
-            animate-fadeIn">
-               
-</div>
 
 
-        </div>
+       </div>
         <Footer />
         </>
     )
